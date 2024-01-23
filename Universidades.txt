@@ -1,0 +1,13 @@
+Eleccion de carreras:
+Ingieneria en industrial
+Ingieneria en minas
+Iniieneria mecanica
+
+Universidades que lo ofrecen:
+Ing en diseño industrial:	Universidad Autonoma de Zacatecas (UAZ), Instituto 			Tecnologico de Zacatecas (ITZ)
+
+
+Ing en minas:		Universidad Autonoma de Zacatecas (UAZ), 
+			Instituto Tecnológico Superior de 			Fresnillo, UNIVERSIDAD DEL BIENESTAR, Instituto 					politecnico nacional
+
+Ing mecanica:		Universidad Autonoma de Zacatecas (UAZ), 			Universidad Politecnica de Zacatecas (UPZ)
