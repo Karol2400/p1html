@@ -15,3 +15,9 @@ img.img-peque{
 p.Parrafito{
   color:red;
 }
+img.img-calsonic_r32{
+   border-radius: 50%
+}
+th.pasatiempos{
+  font: oblique bold 120% cursive;
+}
