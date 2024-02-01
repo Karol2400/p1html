@@ -1,6 +1,7 @@
 < HTML>
   <HEAD>
 <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+<script type="text/javascript" src="../JAVASCRIPT/functions.js"> </script>
    <TITLE> Mi primera pagina </TITLE>
   </HEAD>
   <body bgcolor="#D0D3D4">
@@ -22,7 +23,7 @@
    <br>
    <br>
    <img class="img-calsonic_r32" src="../IMAGES/R32_Calsonic_Skyline_001.jpg">
-   <h2> MATERIAS </h2>
+   <h2 id="palabrita"> MATERIAS </h2>
    <ul>
     <li> Probabilidad y estadistica </li>
     <li> Geografia </li>
@@ -35,7 +36,7 @@
     <Li> La salida </li>
    </ol>
    <table>
-   <table border="1">
+   <table id="Tablita" border="1">
     <th = class="Pasatiempos"> Lunes </th>
     <th = class="Pasatiempos"> Martes </th>
     <th = class="Pasatiempos"> Miercoles </th>
@@ -56,7 +57,7 @@
     </tr>
    </table>
    <br>
-   <button> Haz click aqui </button>
+   <button style="background:red" onclick="changeColor()"> Haz click aqui </button>
    <h5>  <font color="#9900FF"> Hola </font>  </h5>
   </BODY>
 </HTML>
