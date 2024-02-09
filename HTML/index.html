@@ -4,13 +4,13 @@
    <TITLE> Mi primera pagina </TITLE>
   </HEAD>
   <body bgcolor="#D0D3D4">
-  <Header>
-   <nav>
+  <header>
+    <nav>
      <ul>
-      <li> <a href="index.html"> INICIO </li>
-      <li> <a href="Tema1.html"> TEMA 1 </li>
-      <li> <a href="Tema2.html"> TEMA 2 </li>
-     <ul>
+      <li> <a href="index.html"> INICIO </a> </li>
+      <li> <a href="Tema1.html"> TEMA 1 </a> </li>
+      <li> <a href="Tema2.html"> TEMA 2 </a> </li>
+     </ul>
     </nav>
    </header>
    <h1> Mi perfil para la universidad </h1>
@@ -65,7 +65,17 @@
     </tr>
    </table>
    <br>
-   <button style="background:red" onclick="changeColor()"> Haz click aqui </button>
+   <button style="background:red" onclick="changeColor ()"> Cambiar color </button>
+   <button style="background:blue" onclick="enviarMsg()"> Saludar </button>
    <h5>  <font color="#9900FF"> Hola </font>  </h5>
+   <form action="#">
+    <label for="name"> Nombre </label>
+    <input type="text" id="nombre">
+    <br>
+    <label for="name"> Apellidos </label>
+    <input type="text" id="apellidos">
+    <br>
+    <input type="submit" value="Enviar datos">
+   </form>
   </BODY>
 </HTML>
