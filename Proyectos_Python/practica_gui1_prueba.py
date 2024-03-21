@@ -1,0 +1,22 @@
+import tkinter as tk
+from tkinter import messagebox, ttk
+def enviar_info():
+    print("Nombre:", Nombre.get())
+    print("Nombre:", Nombre.get())
+    print("Edad:", Edad.get())
+    print("Email:", Email.get())
+    messagebox.showinfo(message="Tu informacion se ha enviado correctamente", title="Info")
+root=tk.Tk()
+frm=ttk.Frame(root, padding=10)
+ttk.Label(frm,text="Nombre").grid(column=0, row=0)
+Nombre=ttk.Entry(frm)
+Nombre.grid(column=1,row=0)
+ttk.Label(frm,text="Edad").grid(column=0, row=1)
+Edad=ttk.Entry(frm)
+Edad.grid(column=1,row=1)
+ttk.Label(frm,text="Email").grid(column=0, row=2)
+Email=ttk.Entry(frm)
+Email.grid(column=1,row=2)
+ttk.Button(frm,text="Enviar", command=enviar_info).grid(column=1, row=4)
+frm.grid()
+root.mainloop()

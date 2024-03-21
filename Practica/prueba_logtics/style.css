@@ -1,0 +1,182 @@
+div.navbar navbar-fixed-top{
+	border: 8px groove rgba(0, 0, 0, 0.282);
+	padding: 0px 0px 0px 0px;
+}
+body {
+    background-color: #aafafa;
+    margin: 0;
+}
+
+p, a, button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    border: none;
+}
+
+div.box {
+    background-color:white;
+    border-radius: 30px;
+    width: 60%;
+    box-shadow: 1px 1px 20px 10px #8f8e90;
+    text-align: center;
+    margin: auto;
+    /* max-width: 80rem; */
+    /* padding: 0 5rem; */
+}
+
+div.container_icons {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+img.icon {
+    width: 40px;
+    border: 1px solid gainsboro;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+p.text {
+    text-align: center;
+    color: #ff8585;
+}
+
+form.form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.inputs {
+    height: 35px;
+    background-color: #dddddd;
+    /* border: none; */
+    border:1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    width: 26rem;
+}
+
+.inputs:focus {
+    background-color: lightblue;
+    outline: none !important;
+    border:1px solid #999999;
+    box-shadow: 0 0 10px #6b6c6d;
+}
+
+.form a {
+    color: #bbbbbb;
+    text-align: center;
+    /* margin: 15px 0; */
+}
+
+.container_button {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 150px;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btninit {
+    background-color: #607def;
+    border: none;
+    margin: 25px 0;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px #6b6c6d;
+}
+
+h1.titulo_iniciar {
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div.container_iniciar, .container_crear {
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+}
+
+div.iniciar {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 5rem 20px;
+}
+
+.hola {
+    width: 50%;
+    background-color: #607def;
+    border-radius: 90px 30px 30px 90px;
+
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 5rem 20px;
+}
+
+div.container_hola {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+
+.titulo_hola {
+    color: #ffffFF;
+    margin: 0;
+}
+
+.hola p {
+    color: rgb(245, 245, 245);
+    margin: 1rem 0;
+}
+
+div.btncbtn btn-default btn-blockrear {
+    background-color:  #607def;
+}
+
+.button2:hover {
+    box-shadow: 0 0 10px #9d9e9e;
+}
+
+div.carousel-inner {
+    height: 150px;
+    margin-top: 15px;
+}
+
+div.container_carousel img {
+    object-fit: fill;
+}
+
+span.glyphicon {
+    font-size: 90px;
+
+}
+

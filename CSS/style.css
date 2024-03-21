@@ -86,8 +86,22 @@ div.divisoncita2{
 	padding: 50px 30px 50px 80px;
 	margin: 25px 50px 75px 100px;
 }
-
-
+div.divk{
+	background-color: darkred;
+	font-family: 'Times New Roman', Times, serif;
+	border: 5px solid aqua;
+}
+p.pk{
+	text-decoration-color: black;
+}
+@keyframes rotate{
+	form{
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
 
 
 
