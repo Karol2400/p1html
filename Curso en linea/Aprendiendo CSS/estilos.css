@@ -12,7 +12,7 @@ body{
     /*width: 70%*/
     width: 1100px;
     margin: 0px auto;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 header{
@@ -21,7 +21,7 @@ header{
     width: 100%;
     margin: 0px;
     text-align: center;
-    line-height: 200px;
+    line-height: 100px;
     color: white;
     border-bottom: 3px dashed black;
 }
@@ -45,14 +45,43 @@ nav ul li{
 
 #content{
     float:left;
-    width: 80%;
+    width: calc(80% - 80px);
     min-height: 500px;
     background: green;
+    padding: 40px ;
+}
+
+.article{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.article h2{
+    font-size: 25px;
 }
 
 aside{
     float: left;
-    width: 20%;
-    background: orange;
+    width: calc(20% - 20px);
+    background:orange;
     min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
 }
